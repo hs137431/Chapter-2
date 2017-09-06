@@ -34,7 +34,11 @@ public class MadLibs {
 		System.out.print("Enter another number >>");
 		b = input.nextInt();
 		c = a - b;
-		System.out.println("The " + color + " Dragon is the " + wordEst + " Dragon of all. it has " + c + bodyPartPlural + ", and a(n)" + anAnimal + "shaped like a " + aNoun + "it loves to eat " + PluralNoun + ", although it will feast on nearly anything");
+		//Needs return lines below
+		System.out.println("The " + color + " Dragon is the " 
+		+ wordEst + " Dragon of all. it has " + c + " " + bodyPartPlural + ", and a " 
+		+ anAnimal + " shaped like a " + aNoun + " it loves to eat " + PluralNoun 
+		+ ", although it will feast on nearly anything");
 	}
 
 }
